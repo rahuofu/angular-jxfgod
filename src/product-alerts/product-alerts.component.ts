@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Input } from '@angular/core';
 
-import { product } from '../product';
-import { products } from '../products';
 
 @Component({
   selector: 'app-product-alerts',
@@ -11,7 +9,6 @@ import { products } from '../products';
 })
 export class ProductAlertsComponent implements OnInit {
 
-  @Input() product;
 
   constructor() { }
 
